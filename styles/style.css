@@ -59,6 +59,15 @@ padding-top: 10px;
 .main h1 {
     text-align: center;
     color: var(--light-color);
+    font-size: 30px;
     text-transform: capitalize;
     margin: 0;
+}
+.main h1 span{
+    display: block;
+    padding: 3px;
+}
+
+@media all and (min-width:768px) {
+
 }
