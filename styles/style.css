@@ -4,5 +4,30 @@
     text-decoration: none;
     list-style-type: none;
     padding: 0;
-    font-family: font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+:root {
+    /* Colors */
+    --primary-color: #3CDBC0;
+    --dark-color: #4a4a4a;
+    --light-color:#FFFFFF;
+}
+
+/* HEADER */
+
+.header {
+    text-align: center;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+}
+
+/* MAIN */
+
+.main {
+    background-color: var(--primary-color);
+}
+.main h1 {
+    text-align: center;
+    color: var(--light-color);
 }
