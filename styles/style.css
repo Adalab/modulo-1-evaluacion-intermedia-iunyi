@@ -32,6 +32,7 @@ padding-top: 10px;
 .menu ul {
     padding: 10px 0 13px;
 }
+
 .menu ul li{
     display: inline-block;
     text-transform: uppercase;
@@ -63,11 +64,35 @@ padding-top: 10px;
     text-transform: capitalize;
     margin: 0;
 }
+
 .main h1 span{
     display: block;
     padding: 3px;
 }
 
 @media all and (min-width:768px) {
+
+    /* HEADER (Mediaqueries)*/
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 30px;
+    }
+    
+    .logo {
+        display: inline-block;
+    }
+    
+    .menu {
+        display: flex;
+        align-items: center;
+    }
+
+    /* HEADER (Mediaqueries)*/
+
+    .main h1 {
+        font-size: 40px;
+    }
 
 }
