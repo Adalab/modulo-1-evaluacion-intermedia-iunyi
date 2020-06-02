@@ -21,6 +21,8 @@
     text-align: center;
     color: var(--dark-color);
     background-color: var(--light-color);
+    position: fixed;
+    width: 100vw;
 }
 
 .logo {
@@ -47,6 +49,11 @@ padding-top: 10px;
 
 .main {
     background-color: var(--primary-color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
 }
 
 .main h1 {
