@@ -4,6 +4,7 @@
     text-decoration: none;
     list-style-type: none;
     padding: 0;
+    margin: 0;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -22,12 +23,35 @@
     background-color: var(--light-color);
 }
 
+.logo {
+padding-top: 10px;
+}
+
+.menu ul {
+    padding: 10px 0 13px;
+}
+.menu ul li{
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.menu ul li:first-child {
+    padding- right: 10px;
+}
+
+.menu ul li:last-child {
+    padding-left: 10px;
+}
+
 /* MAIN */
 
 .main {
     background-color: var(--primary-color);
 }
+
 .main h1 {
     text-align: center;
     color: var(--light-color);
+    text-transform: capitalize;
+    margin: 0;
 }
