@@ -33,18 +33,14 @@
     padding: 10px 0 13px;
 }
 
-.menu ul li{
+.menu ul li {
     display: inline-block;
     text-transform: uppercase;
     font-size: 16px;
 }
 
-.menu ul li:first-child {
-    padding-right: 10px;
-}
-
-.menu ul li:last-child {
-    padding-left: 10px;
+.menu ul li a { 
+    padding: 10px;
 }
 
 /* MAIN */
@@ -55,10 +51,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .main h1 {
-    text-align: center;
     color: var(--light-color);
     font-size: 30px;
     text-transform: capitalize;
@@ -81,7 +77,6 @@
     }
     
     .logo {
-        display: inline-block;
         padding-top: 0;
     }
     
